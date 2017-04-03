@@ -1,0 +1,53 @@
+/* SITE */
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+#site-background {
+	background-color: white;
+}
+
+#site-footer {
+	
+}
+
+/* MAIN PAGE */
+#main-header {
+
+}
+
+#main-menu {
+
+}
+
+#main-menu ul {
+	padding-left: 0px;
+}
+
+.main-menu-item {
+	display: block;
+}
+
+#main-informations {
+
+}
+
+#main-projects {
+
+}
+
+#main-projects ul {
+	padding-left: 0px;
+}
+
+.main-projects-project {
+	display: block;
+}
+
+/* PROJECT PAGE */
