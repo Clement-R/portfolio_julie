@@ -1,4 +1,22 @@
 /* SITE */
+a{
+	color: #4d4d4d;
+}
+
+a:hover{
+	color: green;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+h3{
+	font-size: 14px;
+}
+
 .site {
   display: flex;
   min-height: 100vh;
@@ -11,6 +29,7 @@
 
 #site-background {
 	background-color: white;
+	background-image: url("243554.png");
 }
 
 #site-footer {
@@ -19,11 +38,19 @@
 
 /* MAIN PAGE */
 #main-header {
+	padding: 0 auto;
+}
 
+.logo{
+	margin: 0 auto;
+	max-width: 80px;
+	max-height: 80px;
 }
 
 #main-menu {
-
+	margin: 0 auto;
+	width: 200px;
+	background-color: white;
 }
 
 #main-menu ul {
@@ -39,7 +66,9 @@
 }
 
 #main-projects {
-
+	margin: 0 auto;
+	width: 200px;
+	background-color: white;
 }
 
 #main-projects ul {
