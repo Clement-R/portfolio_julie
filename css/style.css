@@ -1,5 +1,9 @@
 /* SITE */
-a{
+a,p,h1,h2,h3,h4{
+	font-family: "Montserrat", "Calibri";
+}
+
+1a{
 	color: #4d4d4d;
 }
 
@@ -11,6 +15,12 @@ a:hover{
 a:visited{
 	color: #4d4d4d;
 	text-decoration: none;
+}
+
+h2{
+	font-family: "Montserrat", "Calibri";
+	font-weight: 700;
+	font-size: 20px;
 }
 
 h3{
@@ -30,6 +40,7 @@ h3{
 #site-background {
 	background-color: white;
 	background-image: url("243554.png");
+	background-position: center;
 }
 
 #site-footer {
@@ -42,7 +53,8 @@ h3{
 }
 
 .logo{
-	margin: 0 auto;
+	display: block;
+	margin: 3% auto;
 	max-width: 80px;
 	max-height: 80px;
 }
@@ -67,8 +79,11 @@ h3{
 
 #main-projects {
 	margin: 0 auto;
-	width: 200px;
-	background-color: white;
+	width: 30%;
+	min-width: 250px;
+	max-width: 350px;
+	background-color: white;;
+	padding-bottom: 15px;
 }
 
 #main-projects ul {
@@ -77,6 +92,11 @@ h3{
 
 .main-projects-project {
 	display: block;
+}
+
+.allgames{
+	margin: 0 10%;
+	width: 90%;
 }
 
 /* PROJECT PAGE */
