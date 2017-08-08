@@ -14,7 +14,7 @@ $(".main-menu-item").click(function(e){
 	if(label == "games") {
 		$("#main-projects-games").show();
 		$("#main-projects-ui").hide();
-	} else if(label == "ui") {
+	} else if(label == "About") {
 		$("#main-projects-games").hide();
 		$("#main-projects-ui").show();
 	}
