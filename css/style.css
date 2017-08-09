@@ -54,6 +54,7 @@ p{
 	text-align: center;
 	color: #cecece;
 	padding: 5px 0;
+	font-size: 10px;
 }
 
 
@@ -81,6 +82,36 @@ p{
 #main-menu ul {
 	font-size: 20px;
 	padding-left: 0px;
+}
+
+.line {
+	display: inline-block;
+	height: 3px;
+	width: 100%;
+}
+
+.colorone {
+	width: 20%;
+	background-color: #e93d00;
+	margin: 0px;
+}
+
+.colortwo {
+	width: 5%;
+	background-color: #5d3d00;
+	margin: 0px;
+}
+
+.colorthree {
+	width: 50%;
+	background-color: #0d3700;
+	margin: 0px;
+}
+
+.colorfour {
+	width: 20%;
+	background-color: #0ee896;
+	margin: 0px;
 }
 
 #first{
@@ -135,3 +166,24 @@ p{
 }
 
 /* PROJECT PAGE */
+#projet-background {
+	background-color: white;
+	background-image: url("../img/243554.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-
+}
+
+#project-box{
+	background-color: white;
+	display: block;
+}
+
+.project-header{
+	margin: 0px;
+}
+
+.title{
+	display: inline-block;
+	margin-left: 30px;
+}
