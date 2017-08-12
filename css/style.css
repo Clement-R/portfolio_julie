@@ -1,19 +1,19 @@
 /* SITE */
-a,p,h1,h2,h3,h4{
+a,h1,h2,h3,h4,h5,h6,i{
 	font-family: "Montserrat", "Calibri";
 }
 
-1a{
-	color: #4d4d4d;
+a{
+	color: #3a3d00;
 }
 
 a:hover{
-	color: green;
+	color: #3fffd5;
 	text-decoration: none;
 }
 
 a:visited{
-	color: #4d4d4d;
+	color: #3a3d00;
 	text-decoration: none;
 }
 
@@ -29,6 +29,7 @@ h3{
 
 p{
 	margin: 0 auto;
+	font-family: Arial;
 }
 
 .site {
@@ -84,32 +85,33 @@ p{
 	padding-left: 0px;
 }
 
+.col-md-12 ul{
+		margin-top: -20px;
+		width: 100%;
+}
+
 .line {
 	display: inline-block;
 	height: 3px;
-	width: 100%;
+
 }
 
 .colorone {
-	width: 20%;
 	background-color: #e93d00;
 	margin: 0px;
 }
 
 .colortwo {
-	width: 5%;
 	background-color: #5d3d00;
 	margin: 0px;
 }
 
 .colorthree {
-	width: 50%;
 	background-color: #0d3700;
 	margin: 0px;
 }
 
 .colorfour {
-	width: 20%;
 	background-color: #0ee896;
 	margin: 0px;
 }
@@ -134,6 +136,7 @@ p{
 	max-width: 350px;
 	background-color: white;;
 	padding-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 #main-projects ul {
@@ -154,15 +157,27 @@ p{
 	width: 80%;
 }
 
+#main-projects-ui p{
+	padding-bottom: 10px;
+}
+
 .social{
 	display: inline-block;
 }
 
 .socialicon{
-	height: 64px;
+	height: 40px;
 	width: auto;
-	margin: 0 auto;
+	margin: 10px auto;
 	
+}
+#cv{
+	margin: 20px auto;
+	color: #e93d00;
+}
+
+#me_pic{
+	width: 100%;
 }
 
 /* PROJECT PAGE */
@@ -171,24 +186,34 @@ p{
 	background-image: url("../img/243554.png");
 	background-position: center;
 	background-attachment: fixed;
-	background-
 }
 
 #project-box{
 	background-color: white;
 	display: block;
+	margin-bottom: 20px;
 }
 
 .project-header{
 	margin: 0px;
 }
 
+#backbutton img{
+	width: 30px;
+	padding-bottom: 2px;
+}
+
 .project-content{
 	margin-top: 20px;
 }
 
+.project-dynamic-content{
+	margin-top: 20px;
+}
+
 .project-image{
-	width: 100%;
+	max-width: 100%;
+	max-height: 900px;
 }
 
 .title{
