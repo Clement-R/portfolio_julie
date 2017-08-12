@@ -58,6 +58,54 @@ p{
 	font-size: 10px;
 }
 
+.colorline_bottom{
+	padding: 0px;
+
+}
+
+.colorline_menu{
+	height: 3px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.colorline_menu ul{
+	margin: 0px;
+}
+
+.colorline_bottom ul{
+		margin: -20px 0px 0px 0px;
+		width: 100%;
+		padding: 0px;
+}
+
+.line {
+	display: inline-block;
+	height: 3px;
+	padding: 0px;
+
+}
+
+.colorone {
+	background-color: #e93d00;
+	margin: 0px;
+}
+
+.colortwo {
+	background-color: #5d3d00;
+	margin: 0px;
+}
+
+.colorthree {
+	background-color: #0d3700;
+	margin: 0px;
+}
+
+.colorfour {
+	background-color: #0ee896;
+	margin: 0px;
+}
+
 
 
 /* MAIN PAGE */
@@ -83,41 +131,6 @@ p{
 #main-menu ul {
 	font-size: 20px;
 	padding-left: 0px;
-}
-
-.col-md-12 ul{
-		margin-top: -20px;
-		width: 100%;
-}
-
-.line {
-	display: inline-block;
-	height: 3px;
-
-}
-
-.colorone {
-	background-color: #e93d00;
-	margin: 0px;
-}
-
-.colortwo {
-	background-color: #5d3d00;
-	margin: 0px;
-}
-
-.colorthree {
-	background-color: #0d3700;
-	margin: 0px;
-}
-
-.colorfour {
-	background-color: #0ee896;
-	margin: 0px;
-}
-
-#first{
-	margin-right: 10px;
 }
 
 .main-menu-item {
@@ -219,4 +232,8 @@ p{
 .title{
 	display: inline-block;
 	margin-left: 30px;
+}
+
+.info{
+	font-size: 10px;
 }
