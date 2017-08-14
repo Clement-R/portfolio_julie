@@ -221,7 +221,7 @@ p{
 }
 
 .project-dynamic-content{
-	margin-top: 20px;
+	margin: 20px;
 }
 
 .project-image{
@@ -236,4 +236,10 @@ p{
 
 .info{
 	font-size: 10px;
+	font-family: "Montserrat", "Calibri";
+}
+
+.sketchfab-embed-wrapper{
+	width: 100%;
+	height: auto;
 }
