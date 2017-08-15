@@ -19,3 +19,10 @@ $(".main-menu-item").click(function(e){
 		$("#main-projects-ui").show();
 	}
 });
+
+$('.background-changer').on('mouseover', 'a', function () {
+
+    var background = "url('" + $(this).attr('data-background') + "')";
+
+    $('.background-changer').css('background-image', background)
+});
