@@ -20,7 +20,7 @@ $(".main-menu-item").click(function(e){
 	}
 });
 
-$('.background-changer').on('mouseover', 'a', function () {
+$('.bg-modifier').on('mouseover', function() {
 
     var background = "url('" + $(this).attr('data-background') + "')";
 
