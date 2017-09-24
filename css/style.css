@@ -32,6 +32,21 @@ p{
 	font-family: Arial;
 }
 
+.bgimg{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+.row{
+	position: relative;
+}
+
+
+.link:hover{
+	color: #e93d00;
+	text-decoration: none;
+}
+
 .site {
   display: flex;
   min-height: 100vh;
@@ -44,9 +59,11 @@ p{
 
 #site-background {
 	background-color: white;
+	background-image: url("../img/newbirds.jpg");
 	background-position: center;
 	background-attachment: fixed;
-	background-
+-webkit-transition: background-image 0.2s ease-in-out;
+transition: background-image 0.2s ease-in-out;
 }
 
 #site-footer {
@@ -178,9 +195,10 @@ p{
 }
 
 .socialicon{
-	height: 40px;
+	height: 25px;
 	width: auto;
-	margin: 10px auto;
+	margin-top: 10px;
+	margin-right: 10px;
 	
 }
 #cv{
@@ -193,11 +211,22 @@ p{
 }
 
 /* PROJECT PAGE */
-#projet-background {
+.projet-background {
 	background-color: white;
-	background-image: url("../img/243554.png");
 	background-position: center;
 	background-attachment: fixed;
+}
+
+#luncheon{
+	background-image: url("../img/luncheon/image1.jpg");
+}
+
+#letthemin {
+	background-image: url("../img/letthemin/bg.jpg");
+}
+
+#flampage{
+	background-image: url("../img/flampage/logo-flampage.jpg");
 }
 
 #project-box{
@@ -217,6 +246,11 @@ p{
 
 .project-content{
 	margin-top: 20px;
+}
+
+.identity{
+	background-color: rgba(63,255,213,0.8);
+	padding: 10px;
 }
 
 .project-dynamic-content{
@@ -241,4 +275,20 @@ p{
 .sketchfab-embed-wrapper{
 	width: 100%;
 	height: auto;
+}
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }

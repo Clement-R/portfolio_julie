@@ -24,5 +24,5 @@ $('.bg-modifier').on('mouseover', function() {
 
     var background = "url('" + $(this).attr('data-background') + "')";
 
-    $('.background-changer').css('background-image', background)
+    $('#site-background').css('background-image', background)
 });
